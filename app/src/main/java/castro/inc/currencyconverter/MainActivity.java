@@ -10,7 +10,7 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
 
     public void poundFunction(View convertView){
-
+// testing this eddit.
         EditText currencytText = findViewById(R.id.currencyText);
         Log.i("Amount", currencytText.getText().toString());
 
