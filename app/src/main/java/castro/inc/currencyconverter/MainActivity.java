@@ -45,6 +45,7 @@ public class MainActivity extends AppCompatActivity {
         Double currencyTextDouble = Double.parseDouble(currencytText.getText().toString());
         Double euroAmount = .90*(currencyTextDouble);
         Toast.makeText(MainActivity.this, "€" + String.format("%.2f", euroAmount), Toast.LENGTH_LONG).show();
+        //Testing Comment
     }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
